@@ -19,5 +19,6 @@
   <modules>
     <module>jms-activemq</module>
     <module>jms-spring-api</module>
+    <module>jms-spring-client</module>
   </modules>
 </project>
