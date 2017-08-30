@@ -5,6 +5,17 @@
   <artifactId>jms</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- Spring版本 -->
+		<spring.version>4.1.7.RELEASE</spring.version>
+		<!-- ActiveMQ版本 -->
+		<activemq.version>5.15.0</activemq.version>
+		<!-- JUnit版本 -->
+		<junit.version>4.11</junit.version>
+	</properties>  
+  
   <modules>
     <module>jms-activemq</module>
     <module>jms-spring-api</module>
