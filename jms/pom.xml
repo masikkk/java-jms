@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.masikkk.jms</groupId>
-  <artifactId>jms</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.masikkk.jms</groupId>
+	<artifactId>jms</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Spring版本 -->
@@ -14,11 +15,11 @@
 		<activemq.version>5.15.0</activemq.version>
 		<!-- JUnit版本 -->
 		<junit.version>4.11</junit.version>
-	</properties>  
-  
-  <modules>
-    <module>jms-activemq</module>
-    <module>jms-spring-api</module>
-    <module>jms-spring-client</module>
-  </modules>
+	</properties>
+
+	<modules>
+		<module>jms-activemq</module>
+		<module>jms-spring-api</module>
+		<module>jms-spring-client</module>
+	</modules>
 </project>

@@ -24,7 +24,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-		<!-- jms -->
+		<!-- javax.jms -->
 		<dependency>
 			<groupId>javax.jms</groupId>
 			<artifactId>jms</artifactId>
