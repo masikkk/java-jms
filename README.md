@@ -1,7 +1,7 @@
 # java-jms 
 ActiveMQ消息发送和接收实例，及与Spring结合实例。
 
-##项目介绍
+## 项目介绍
 本项目是一个maven多模块项目：
 - **jms项目**，多模块maven项目的父项目，无任何代码，只在pom中定义spring，activemq和junit的版本号
 - **jms-activemq项目**，无spring的activemq实例，包含点对点队列发送和同步、异步接收，主题发送和同步、异步接收。
