@@ -2,11 +2,11 @@
 ActiveMQ消息发送和接收实例，及与Spring结合实例。
 
 ## 项目介绍
-本项目是一个maven多模块项目：
+本项目是一个maven多模块项目，简介如下：
 - **jms项目**，多模块maven项目的父项目，无任何代码，只在pom中定义spring，activemq和junit的版本号
 - **jms-activemq项目**，无spring的activemq实例，包含点对点队列发送和同步、异步接收，主题发送和同步、异步接收。
 - **jms-spring-api项目**，activemq与spring整合项目，消息发送接收的接口与实现
-- **jms-spring-client项目**，activemq与spring整合项目的调用端，调用jms-spring-api定义的接口进行消息的发送和接收，可直接调用其中的JUnit测试类进行测试。
+- **jms-spring-client项目**，activemq与spring整合项目的调用端，调用jms-spring-api定义的接口进行消息的发送和接收，可直接运行其中的JUnit测试类进行测试。
 
 ## 运行方法
 首先本地安装并启动ActiveMQ，在控制台http://127.0.0.1:8161/admin/ 查看队列
